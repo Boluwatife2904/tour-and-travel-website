@@ -1,0 +1,80 @@
+@media screen and (max-width: 1240px) {
+  .element {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .login,
+  .register {
+    margin-bottom: 10px;
+  }
+
+  .header-section .header-content h3 {
+    font-size: 46px;
+  }
+
+  .section-image img,
+  .header-section .header-image img {
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .client-image .author-image {
+    height: 280px;
+  }
+
+  .testimonial-content .rating,
+  .testimonial-content .testimonial-comment {
+    margin-bottom: 10px;
+  }
+
+  .testimonial-content .testimonial-comment p {
+    font-size: 15px;
+  }
+
+  .testimonial-content .testimonial-author h6 {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  
+  .testimonial-content .testimonial-author p {
+    font-size: 14px;
+  }
+
+  .single-testimonial{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-image img,
+  .header-section .header-image img {
+    height: 250px;
+  }
+
+  .client-image .author-image {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-section .header-content h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .section-content h3{
+    font-size: 24px;
+  }
+
+  .section-header h5 {
+    font-size: 20px;
+  }
+
+  .section-header a {
+    font-size: 14px;
+  }
+}
